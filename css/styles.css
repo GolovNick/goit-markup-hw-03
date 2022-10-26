@@ -1,0 +1,196 @@
+:root {
+    --accent-color: #2196F3;
+    --main-text-color: #212121;
+    --secondary-font-family: roboto, sans-serif;
+    --secondary-text-color: #757575;
+    --white-text-color: #FFFFFF;
+    --accent-active-color: #188CE8;
+    --filter-button-bgc: #F5F4FA;
+    --dark-section-bgc: #2F303A;
+
+}
+/* a:visited {
+    color: transparent;
+} */
+h1,h2,h3,h4,h5,h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--main-text-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.link-style-reset {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+.list-style-reset {
+    list-style: none;
+}
+/* ==HEADER STYLES START== */
+.logo-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.logo-accent {
+    color: var(--accent-color);
+}
+.header-menu-link {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.header-menu-active {
+    color: var(--accent-color);
+}
+.header-contacts-mail,
+.header-contacts-phone {
+    color: var(--secondary-text-color);
+}
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: var(--accent-color);
+}
+/* ===HEADER STYLES END=== */
+/* ===HERO STYLES START */
+.hero-heading {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.37;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+    background-color: var(--dark-section-bgc);
+}
+.hero-modal-button {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
+}
+.hero-modal-button:hover {
+    background-color: var(--accent-active-color);
+}
+/* ===HERO STYLES END=== */
+/* ===BENEFITS STYLES START=== */
+
+.benefits-list-item-heading {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.benefits-list-item-text {
+        line-height: 1.71;
+        color: var(--secondary-text-color)
+}
+/* ===BENEFITS STYLES END=== */
+/* ===ABOUT US STYLES START=== */
+.about-us-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* ABOUT US STYLES END */
+/* OUR TEAM STYLES START */
+.our-team-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.our-team-list-item-heading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+.our-team-list-item-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+/* OUR TEAM STYLES END */
+/* FOOTER STYLES START */
+.footer-physical-adress {
+    color: var(--white-text-color);
+}
+.footer-adress-list-item-link {
+    font-style: normal;
+    line-height: 0.58;
+}
+.footer-mailaddress,
+.footer-phonenumber {
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+}
+.footer-mailaddress:hover,
+.footer-phonenumber:hover,
+.footer-mailaddress:focus,
+.footer-phonenumber:focus {
+    color: var(--accent-color);
+}
+/* FOOTER-STYLES-END */
+
+
+
+/* porftolio.html styles */
+
+.link-hover:hover,
+.link-hover:focus {
+    color: var(--accent-color);
+}
+.portfolio-filter-item-button {
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;  
+    text-align: center;
+    background-color: var(--filter-button-bgc);
+    cursor: pointer;
+}
+.portfolio-filter-item-button:hover,
+.portfolio-filter-item-button:focus {
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+}
+.portfolio-galery-list-item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+}
+.portgolio-galery-list-item-description {
+    font-size: 16px;
+    line-height: 1.88;
+    /* identical to box height, or 188% */
+
+    color: var(--secondary-text-color);
+}
+.main-footer {
+    background-color: var(--dark-section-bgc);
+
+}
+.logo-accent-footer {
+    color: var(--white-text-color);
+}
