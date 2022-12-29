@@ -40,6 +40,19 @@ body {
 /* .container-gray {
     
 } */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 .section { 
     padding-top: 94px;
     padding-bottom: 94px;
@@ -67,8 +80,6 @@ body {
 .header-wrapper {
     display: flex;
     justify-content: space-between;
-    padding-top: 25px;
-    padding-bottom: 25px;
     align-items: center
 }
 .main-nav {
@@ -82,7 +93,8 @@ body {
 }
 .logo-link-header {
     margin-right: 93px;
-
+    padding-bottom: 32px;
+    padding-top: 32px;
 }
 .logo-accent {
     color: var(--accent-color);
@@ -98,10 +110,14 @@ body {
 .header-contacts-item:not(:last-child) {
     margin-right: 50px;
 }
+
 .header-menu-link {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .header-menu-item:not(:last-child){
     margin-right: 50px;
@@ -175,9 +191,9 @@ body {
     display: flex;
     gap: 30px;
 }
-.benefits-heading {
+/* .benefits-heading {
     visibility: hidden;
-}
+} */
 .benefits-list-item {
     width: 270px;
 }
@@ -261,8 +277,8 @@ body {
 /* OUR TEAM STYLES END */
 /* FOOTER STYLES START */
 .main-footer {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-adress-list {
 }
@@ -296,9 +312,6 @@ body {
 
 
 /* porftolio.html styles */
-.portfolio-galery h1 {
-    visibility: hidden;
-}
 .portfolio-filter {
     display: flex;
     justify-content: center;
